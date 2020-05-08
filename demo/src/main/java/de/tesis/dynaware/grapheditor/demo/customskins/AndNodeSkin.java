@@ -32,6 +32,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import java.io.IOException;
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -80,7 +81,9 @@ public class AndNodeSkin extends GNodeSkin {
     private final Rectangle border = new Rectangle();
     private final Rectangle background = new Rectangle();
     private final StackPane pane = new StackPane();
-    private final Image and = new Image(this.getClass().getResourceAsStream("/de/tesis/dynaware/grapheditor/core/view/and.png"),30, 40, false, true);
+    private final InputStream is = Property.class
+            .getResourceAsStream("/de/tesis/dynaware/grapheditor/demo/and.png");
+    private final Image and = new Image(is,30, 40, false, true);
     private final ImageView imageView = new ImageView(and);
 
     /**
@@ -108,6 +111,12 @@ public class AndNodeSkin extends GNodeSkin {
         border.getStyleClass().setAll(STYLE_CLASS_BORDER);
         background.getStyleClass().setAll(STYLE_CLASS_BORDER);
 
+        border.addEventFilter(MouseEvent.MOUSE_DRAGGED, this::filterMouseDragged);
+        border.setOnMouseDragEntered(mouseDragEvent -> {
+            if (border.isResizable()){
+                background.setWidth(border.getWidth()+SIZE_AROUND_BORDER);
+            }
+        });
 
         getRoot().getChildren().addAll(border, pane);
         getRoot().setMinSize(MIN_WIDTH, MIN_HEIGHT);
