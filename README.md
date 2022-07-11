@@ -1,5 +1,5 @@
 Graph Editor
-=======
+=========
 
 A library for creating and editing graph-like diagrams in JavaFX.
 
