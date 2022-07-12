@@ -30,7 +30,7 @@ Download the latest [Release](https://github.com/eckig/graph-editor/releases).
 
 Try the tutorials [here](https://github.com/eckig/graph-editor/wiki).
 
-## Demo
+# Demo
 
 Requires [Java 11](https://adoptopenjdk.net/), [Git](http://git-scm.com/) and [Maven](http://maven.apache.org/).
 
