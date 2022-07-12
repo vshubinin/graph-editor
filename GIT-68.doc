@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>[#GIT-68] Q about &quot;Smart Git Integration for the Jira&quot;</title>
+    <meta http-equiv="Content-Type" Content="application/vnd.ms-word; charset=UTF-8">
+        <style type="text/css">
+
+.tableBorder, .grid
+{
+    background-color: #fff;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tableBorder td, .grid td
+{
+    vertical-align: top;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+.noPadding
+{
+    padding: 0 !important;
+}
+
+h3 .subText
+{
+    font-size: 60%;
+    font-weight: normal;
+}
+
+.tabLabel
+{
+    font-weight: bold;
+    border: 1px solid #ccc;
+    border-bottom:none;
+    padding: 2px;
+    display: inline;
+}
+
+td.blank
+{
+    padding: 0;
+    margin: 0;
+}
+
+.blank td
+{
+    border: none;
+}
+
+#descriptionArea
+{
+    margin: 0;
+    padding: 2px;
+    border: 1px solid #ccc;
+}
+
+hr
+{
+    border-top:1px solid #aaa;
+}
+
+hr.fullcontent
+{
+  height: 15px;
+  padding: 10px 0;
+  background: #fff url('https://aserve.atlassian.net/images/icons/hr.gif') no-repeat scroll center;
+}
+
+</style>
+
+</head>
+<body>
+
+<table class="tableBorder" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" width="100%" colspan="2" valign="top">
+                            <h3 class="formtitle">
+                        [GIT-68]&nbsp;<a href="https://aserve.atlassian.net/browse/GIT-68">Q about &quot;Smart Git Integration for the Jira&quot;</a>
+            <span class="subText">
+               Created: 21/Jun/22                   &nbsp;Updated: 27/Jun/22
+
+                                            </span>
+            </h3>
+        </td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Status:</b></td>
+        <td width="80%">Waiting for customer</td>
+    </tr>
+    <tr>
+        <td width="20%"><b>Project:</b></td>
+        <td width="80%"><a href="https://aserve.atlassian.net/secure/BrowseProject.jspa?id=10004">Smart Git Integration for Jira</a></td>
+    </tr>
+
+        <tr>
+            <td><b>Components:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Affects versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+
+        <tr>
+            <td><b>Fix versions:</b></td>
+            <td>
+                            None
+                </td>
+    </tr>
+    
+    </table>
+
+<br />
+<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td bgcolor="#f0f0f0" valign="top" width="20%">
+            <b>Type:</b>
+        </td>
+        <td bgcolor="#ffffff" valign="top"  width="30%" >
+            Support
+        </td>
+
+                    <td bgcolor="#f0f0f0">
+                <b>Priority:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap>
+                Medium
+            </td>
+            </tr>
+    <tr>
+                        <td bgcolor="#f0f0f0" valign="top" width="20%">
+                <b>Reporter:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top"  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                id="word_reporter_qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6">
+                    tillmann.witzler@edeka.de
+                </a>
+
+                            </td>
+        
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Assignee:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" nowrap  width="30%" >
+                                        
+                
+        
+            <a class="user-hover" rel="5cf90c8ba4354c0d8e70cda8"
+                id="word_assignee_5cf90c8ba4354c0d8e70cda8"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=5cf90c8ba4354c0d8e70cda8">
+                    Liubov Topchyi
+                </a>
+
+                            </td>
+            </tr>
+    	<tr>
+		<td bgcolor="#f0f0f0" width="20%">
+			<b>Resolution:</b>
+		</td>
+		<td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+            				Unresolved
+                    </td>
+                    <td bgcolor="#f0f0f0" width="20%">
+                <b>Votes:</b>
+            </td>
+            <td bgcolor="#ffffff" valign="top" width="30%" nowrap>
+                0
+            </td>
+        
+    </tr>
+    
+        <tr>
+        <td bgcolor="#f0f0f0" width="20%">
+            <b>Labels:</b>
+        </td>
+        <td id="labels-12238-value" class="value" bgcolor="#ffffff" valign="top" colspan="3" nowrap>
+                            None
+                    </td>
+    </tr>
+    
+    	<tr>
+        		<td bgcolor="#f0f0f0" width="20%"><b>Remaining Estimate:</b></td>
+        <td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Time Spent:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+	</tr>
+    <tr>
+                <td bgcolor="#f0f0f0" width="20%"><b>Original estimate:</b></td>
+		<td bgcolor="#ffffff" valign="top" nowrap width="80%" colspan="3">
+                            Not Specified
+            		</td>
+    </tr>
+    
+    </table>
+
+
+
+    <br />
+
+    	<table class="grid" cellpadding="0" cellspacing="0" border="0" width="100%">
+            
+
+        
+    
+
+
+
+                        <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Request participants:</b></td>
+                <td id="customfield_10023-12238-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Organizations:</b></td>
+                <td id="customfield_10002-12238-value" class="value" bgcolor="#ffffff" width="80%">            None
+    </td>
+            </tr>
+                                <tr>
+                <td bgcolor="#f0f0f0" width="20%" valign="top"><b>Hosting option:</b></td>
+                <td id="customfield_10051-12238-value" class="value" bgcolor="#ffffff" width="80%">    Server / Data Center
+</td>
+            </tr>
+            </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Description</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+    <tr>
+        <td id="descriptionArea">
+            <p>Hello alpha-server support, </p>
+
+
+
+<p>we are interested in your “Smart Git Integration for the Jira” AddOn for our Jira onPrem Server. As we work with the combination of Jira and GitHub we would like to give the AddOn a try. Before we install the Addon we would like to know, if the AddOn can provide directlinks in commits and pull requests on GitHub to Jira. As our developers are used to, they would like to open the Jira tasks right away when they inspect pull requests in GitHub. Is this possible with “Smart Git Integration for the Jira”?  </p>
+
+<p><font color="black"></font>  </p>
+
+<p><font color="black">best regards</font> </p>
+
+<p> <b><font color="black"> </font></b> </p>
+
+<p> <b><font color="black"> <b>Tillmann Witzler</b></font></b> </p>
+
+<p> <b><font color="black"> <br/>
+ <b>EDEKA DIGITAL GmbH</b></font></b> <font color="black"><br/>
+ Regionale Warenwirtschaftssysteme <br/>
+ RWWS Großhandel <br/>
+ Mengen und Wertefluss<br/>
+ Berater / Scrum Master<br/>
+ <br/>
+ Gottlieb-Daimler-Straße 12 <br/>
+ 68165 Mannheim</font><font color="black"></font> </p>
+<div class='table-wrap'>
+<table class='confluenceTable'><tbody>
+<tr>
+<td class='confluenceTd'>&nbsp;</td>
+<td class='confluenceTd'>&nbsp;</td>
+</tr>
+<tr>
+<td class='confluenceTd'><font color="black"> Mobil:</font> </td>
+<td class='confluenceTd'><font color="black"> +49 1511 5028999</font> </td>
+</tr>
+</tbody></table>
+</div>
+
+
+
+<p><font color="black"></font><br/>
+ <a href="http://www.digital.edeka/" class="external-link" rel="nofollow noreferrer">http://www.digital.edeka</a><font color="black"></font>  </p>
+
+<p><font color="black">EDEKA DIGITAL GmbH, Hamburg, eingetragen beim Amtsgericht Hamburg HRB 113314<br/>
+ Geschäftsführer: Christoph Diekmeyer<br/>
+ Ein Unternehmen der EDEKA ZENTRALE</font></p>
+            <br/>
+        </td>
+    </tr>
+    </table>
+
+    <br/>
+
+    <table cellpadding="2" cellspacing="0" border="0" width="100%" align="center">
+    <tr>
+        <td bgcolor="#bbbbbb" width="1%" nowrap align="center">
+            &nbsp;<font color="#ffffff"><b>Comments</b></font>&nbsp;
+        </td>
+        <td>&nbsp;</td>
+    </tr>
+    </table>
+
+    <table cellpadding="0" cellspacing="0" border="0" width="100%" class="grid" style="margin: 0;">
+                <tr id="comment-header-23430"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5cf90c8ba4354c0d8e70cda8"
+                id="word_commented_5cf90c8ba4354c0d8e70cda8"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=5cf90c8ba4354c0d8e70cda8">
+                    Liubov Topchyi
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">21/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23430"><td bgcolor="#ffffff">
+            <p>Hello Tillmann <a href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6" class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" data-account-id="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" accountid="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" rel="noreferrer">tillmann.witzler@edeka.de</a> ,</p>
+
+<p>Thank you for your email.</p>
+
+<p>The plugin is designed to integrate Git providers with Jira. The common action that should be taken to let the plugin know how to link Git commits or pull requests with Jira is to provide the issue key in the commit comment or in the branch name. Basically, this allows you to access the Jira issue from your Git provider.</p>
+
+<p>Please let me know if this works for you. Otherwise, please let me know the details of your expectations, and I’ll pass them to our dev team for future consideration.</p>
+
+<p>Thank you&#33;</p>
+
+<p>Regards,</p>
+
+<p>Luba</p>
+        </td></tr>
+                <tr id="comment-header-23501"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                id="word_commented_qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6">
+                    tillmann.witzler@edeka.de
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">24/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23501"><td bgcolor="#ffffff">
+            <p>Hello Liubov, </p>
+
+
+
+<p>to understand this correctly, if we enter and provide the issue key in our commits in GitHub the API would make a direct link to the corresponding Jira issue, correct? This means the code reviewer could just click on that link in order to open the related Jira issue. This behaviour is what we are searching for. </p>
+
+
+
+<p>Thx in advance  </p>
+
+<p>Tillmann</p>
+        </td></tr>
+                <tr id="comment-header-23549"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="5f84162d06d16d006f887ae3"
+                id="word_commented_5f84162d06d16d006f887ae3"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=5f84162d06d16d006f887ae3">
+                    Nataliya Timoshina
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23549"><td bgcolor="#ffffff">
+            <p><a href="https://alphaserve.atlassian.net/browse/GIT-38" title="smart-link" class="external-link" rel="nofollow noreferrer">https://alphaserve.atlassian.net/browse/GIT-38</a> </p>
+        </td></tr>
+                <tr id="comment-header-23550"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="557058:6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25"
+                id="word_commented_557058:6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=557058%3A6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25">
+                    Anton Storozhuk
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">25/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23550"><td bgcolor="#ffffff">
+            <p>Hello Tillmann <a href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6" class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" data-account-id="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" accountid="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" rel="noreferrer">tillmann.witzler@edeka.de</a> </p>
+
+<p>Yes, you’re correct, but please note, that everything appears on Jira side (at Issue level), not on Github. Are you looking for a solution to display corresponding Jira issues in Github commits/branches?</p>
+
+<p>Thank you for clarifying this.</p>
+
+<p>Best regards,</p>
+
+<p>Anton</p>
+        </td></tr>
+                <tr id="comment-header-23555"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                id="word_commented_qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6">
+                    tillmann.witzler@edeka.de
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23555"><td bgcolor="#ffffff">
+            <p>Hi Anton, </p>
+
+
+
+<p>yes, actually our use-case is, that our devs are checking commits/PRs on GitHub side and want to check the descriptions on Jira in order to understand what’s inside the commit.  </p>
+
+
+
+<p>Best regards, </p>
+
+
+
+<p>Tillmann</p>
+        </td></tr>
+                <tr id="comment-header-23564"><td bgcolor="#f0f0f0">
+            Comment by  
+                                                    
+                
+        
+            <a class="user-hover" rel="557058:6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25"
+                id="word_commented_557058:6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25"
+                href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=557058%3A6f8ef7bf-d13c-41dd-a2bf-abf3e861fc25">
+                    Anton Storozhuk
+                </a>
+
+                                        <font size="-2">
+            [
+                <font color="#336699">27/Jun/22</font>
+
+                            ]
+            </font>
+
+        </td></tr>
+        <tr id="comment-body-23564"><td bgcolor="#ffffff">
+            <p>Hi Tillmann <a href="https://aserve.atlassian.net/secure/ViewProfile.jspa?accountId=qm%3A86756f95-b67a-4d6d-808a-bac73e3886bc%3A5a8d459f-cbca-4293-86a9-9b3cf89c58b6" class="user-hover" rel="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" data-account-id="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" accountid="qm:86756f95-b67a-4d6d-808a-bac73e3886bc:5a8d459f-cbca-4293-86a9-9b3cf89c58b6" rel="noreferrer">tillmann.witzler@edeka.de</a> </p>
+
+<p>Now I see your use-case, but unfortunately our app doesn’t interact with GitHub UI at all. And my guess non of current Jira apps do.</p>
+
+<p>But do you think you still may implement our app into your current processes?</p>
+
+<p>Best regards,</p>
+
+<p>Anton</p>
+        </td></tr>
+            </table>
+Generated at Mon Jun 27 13:21:44 UTC 2022 by Roman Kobal using Jira 1001.0.0-SNAPSHOT#100201-sha1:10a069bc9d27e2e7b1c8aa8c86926c9bf4454379.
+
+</body>
+</html>
